@@ -1,0 +1,15 @@
+{
+  "name": "Pepe El Mago",
+  "short_name": "ElPepe",
+  "orientation": "portrait",
+  "theme_color": "blue",
+  "background_color": "black",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/gato.gif",
+      "type": "image/gif"
+    }
+  ]
+}
