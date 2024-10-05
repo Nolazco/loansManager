@@ -245,4 +245,5 @@ if (isset($_SESSION["message"]) && isset($_SESSION["class"])) {
         </script>
     </main>
 </body>
+<script src="./script.js"></script>
 </html>
