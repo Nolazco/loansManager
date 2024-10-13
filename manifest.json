@@ -1,15 +1,20 @@
 {
-  "name": "Pepe El Mago",
-  "short_name": "ElPepe",
-  "orientation": "portrait",
-  "theme_color": "blue",
-  "background_color": "black",
-  "start_url": "/",
+  "name": "Prestamos Bach 23",
+  "short_name": "Prestamos23",
+  "start_url": "./index.php",
   "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
   "icons": [
     {
-      "src": "/gato.gif",
-      "type": "image/gif"
+      "src": "gato192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "gato512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ]
 }
