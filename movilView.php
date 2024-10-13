@@ -113,7 +113,6 @@ if (isset($_SESSION["message"]) && isset($_SESSION["class"])) {
         <nav>
             <h6 class="max center-align">Sistema de administración de prestamos</h6>
         </nav>
-        <button id="installButton">Instalar</button>
     </header>
     <nav class="bottom max">
         <button data-ui="#addForm">
