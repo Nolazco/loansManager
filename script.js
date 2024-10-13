@@ -6,7 +6,7 @@ function enableNotify(){
 			navigator.serviceWorker.ready.then((sw) => {
 				sw.pushManager.subscribe({
 				    userVisibleOnly: true,
-				    applicationServerKey: "BCXT7_uq8d1dtzyp2WGlGr7iDnm5koAHeCBDxfHjsfJviT4VV2pRXxUL7aUM0w89nRNa2wHlFJFzL5bLfrubn0c"
+				    applicationServerKey: "BFbGqtQSJRmLiglIct8FIKUODsEO2xr3Ba5lIfse9DxrizLRQfJ29JgiMm9-5aqle3nVtGYQiIpAjz7lFnoTh9Y"
 				}).then((subscription) => {
 				    fetch('/saveSubscription.php', {
 				        method: 'POST',
